@@ -7,6 +7,6 @@ if app != '':
     app_command = app
 
 
-os.system("python manage.py makemigrations " + app_command + "c")
+os.system("python manage.py makemigrations " + app_command)
 
 os.system("python manage.py makemigrations " + app_command)
